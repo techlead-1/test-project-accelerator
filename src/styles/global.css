@@ -1,0 +1,16 @@
+/* layout style */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.layout {
+    margin: auto;
+    overflow: hidden;
+    background: white;
+}
+
+.children {
+    margin: 20px auto;
+}
