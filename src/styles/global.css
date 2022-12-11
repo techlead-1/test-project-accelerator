@@ -1,3 +1,4 @@
+
 /* layout style */
 * {
     margin: 0px;
@@ -7,10 +8,9 @@
 
 .layout {
     margin: auto;
-    overflow: hidden;
     background: white;
 }
 
 .children {
-    margin: 20px auto;
+    margin: auto;
 }
