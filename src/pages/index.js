@@ -10,11 +10,15 @@ import {
   faRocket,
   faChartSimple
  } from "@fortawesome/free-solid-svg-icons"
+import { Helmet } from 'react-helmet'
 
 export default function Home() {
   return (
     <Layout>
       <div className={ styles.home }>
+      <Helmet>
+         <title>Home page - Accelerator App</title>
+      </Helmet>
         { /* Header */}
         <section className={ styles.header }>
         <img src="/header-looper.png" alt="header background" className={ styles.looper } />
